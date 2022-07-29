@@ -27,8 +27,7 @@ Grab a texture name from the list. Keep in mind that subblocks use the same text
 
 Rename each **block_texture.texture_set.json** file to **TEXTURE NAME YOU JUST GRABBED FOR THAT BLOCK.texture_set.json**
 
-Go back to the Template folder
-
+Go back to the Template folder. 
 Open up manifest.json with notepad
 
 Edit description and name whatever you want but don't mess up with quotes
