@@ -14,7 +14,7 @@ I chose those blocks to retexture because they are the least common blocks suita
 
 **How to Create Your Own:**
 If you are not happy with my choices, you can use the template to create one yourself.
-- Download the repository; Code -> Download ZIP
+- Download the repository: Code -> Download ZIP
 - Go to **Template/Textures/Blocks**
 - Duplicate the **block_texture.texture_set.json** file if you need to retexture multiple blocks in a single package
 - All textures that can be turned into mirrors are specified in **TextureList.txt** _If you see mistakes please create an issue_
