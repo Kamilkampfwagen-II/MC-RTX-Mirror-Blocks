@@ -1,5 +1,5 @@
 # MC-RTX-Mirror-Blocks
-**THIS PACKS NEEDS DXR ENABLED TO WORK AS INTENDED. WITH RAY TRACING OFF THEY WILL APPEAR WHITE**
+**THIS PACKS NEEDS DXR ENABLED TO WORK AS INTENDED. WITH RAY TRACING OFF THEY WILL APPEAR WHITE**/
 Resource packs to convert some vanilla blocks into mirrors.
 
 - Mirror textured white glass
