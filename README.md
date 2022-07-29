@@ -19,29 +19,29 @@ Download the repository; Code -> Download ZIP
 
 Go to **Template/Textures/Blocks**
 
-Duplicate the **block_texture.texture_set.json** file if you need to retexture multiple blocks in a single package.
+Duplicate the **block_texture.texture_set.json** file if you need to retexture multiple blocks in a single package
 
-All textures that can be turned into mirrors are specified in **TextureList.txt** _If you see mistakes please create an issue._
+All textures that can be turned into mirrors are specified in **TextureList.txt** _If you see mistakes please create an issue_
 
 Grab a texture name from the list. Keep in mind that subblocks use the same texture as their type. (stairs-slabs etc use their plank texture)
 
-Rename each **block_texture.texture_set.json** file to **TEXTURE NAME YOU JUST GRABBED FOR THAT BLOCK.texture_set.json**.
+Rename each **block_texture.texture_set.json** file to **TEXTURE NAME YOU JUST GRABBED FOR THAT BLOCK.texture_set.json**
 
-Go back to the Template folder.
+Go back to the Template folder
 
-Open up manifest.json with notepad.
+Open up manifest.json with notepad
 
-Edit description and name whatever you want but don't mess up with quotes.
+Edit description and name whatever you want but don't mess up with quotes
 
 Open up the link in the next line and generate a random UUID. Change the value of the line with that UUID. If you don't have an internet connection, open up one of the .mcpack files as ZIP, copy its UUID then change some random numbers and use that.
 
-The same step goes for the other UUID, never use the same UUID again.
+The same step goes for the other UUID, never use the same UUID again
 
-Change version info if you want.
+Change version info if you want
 
-Save the file.
+Save the file
 
-Change pack_icon.png if you want. It should be a square to be displayed correctly. Max resolution is **1080x1080** but lower is recommended. Otherwise, it will waste disk space.
+Change pack_icon.png if you want. It should be a square to be displayed correctly. Max resolution is **1080x1080** but lower is recommended. Otherwise, it will waste disk space
 
 Add everything to a zip file **NOT RAR OR 7Z**
 
