@@ -41,11 +41,11 @@ Change version info if you want
 
 Save the file
 
-Change pack_icon.png if you want. It should be a square to be displayed correctly. Max resolution is **1080x1080** but lower is recommended. Otherwise, it will waste disk space
+Replace **pack_icon.png** if you want. It should be a square to be displayed correctly. Max resolution is **1080x1080** but lower is recommended. Otherwise, it will waste disk space
 
-Add everything to a zip file **NOT RAR OR 7Z**
+Add everything to a **zip** file **NOT RAR OR 7Z**
 
 Change the file extension to **mcpack**
 
 
-Congratulations! You have just created your very own mirror resource pack.
+**Congratulations!** You have just created your very own mirror resource pack.
