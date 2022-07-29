@@ -8,7 +8,7 @@ I chose those blocks to retexture because they are the least common blocks suita
 
 **Some Tips:**
 - Both sides of the activator rail have the same mirror texture. For those of you wondering.
-- With mirror textured rails, you can create a working periscope. Their slope is exactly 45 degrees so they reflect the direct light at exactly 90 degrees.
+- With mirror textured rails, you can build a working periscope. Their slope is exactly 45 degrees so they reflect the direct light at exactly 90 degrees.
 - To place them in the air you can use either glass or a barrier block. You may need a borderless glass block addon. For some reason, color information on entity models gets lost when passing through two different glass blocks or the same with a gap between them. You won't be able to see the colors of things handled by entity model renderer like mobs, chests, etc. To avoid this, use a barrier block instead. It has no refraction.
 - MC RTX's light bounce limit is 7; if you are looking into a chain of mirrors, the rest will appear gray. Mirrors rooms will have 14 reflections per dimension.
 
