@@ -1,20 +1,22 @@
 # MC-RTX-Mirror-Blocks
-**THIS PACKS NEEDS DXR ENABLED TO WORK AS INTENDED. WITH RAY TRACING OFF THEY WILL APPEAR WHITE**\
-Resource packs to convert some vanilla blocks into mirrors.
+**THIS PACKS NEEDS DXR ENABLED TO WORK AS INTENDED. WITHOUT RAY TRACING NEW TEXTURES WILL APPEAR WHITE**\
+Resource packs retexture:
+- White glass
+- Activator rail
 
-- Mirror textured white glass
-- Mirror textured activator rail
-
-I chose those blocks to retexture because they are the least common blocks suitable for this purpose as the way I see it.
+I've chosen those because they are not really common in builds.
 
 **Some Tips:**
-- Both sides of the activator rail have the same mirror texture. For those of you wondering.
-- With mirror textured rails, you can build a working periscope. Their slope is exactly 45 degrees so they reflect the direct light at exactly 90 degrees.
-- To place them in the air you can use either glass or a barrier block. You may need a borderless glass block addon. For some reason, color information on entity models gets lost when passing through two different glass blocks or the same with a gap between them. You won't be able to see the colors of things handled by entity model renderer like mobs, chests, etc. To avoid this, use a barrier block instead. It has no refraction.
-- MC RTX's light bounce limit is 7; if you are looking into a chain of mirrors, the rest will appear gray. Mirrors rooms will have 14 reflections per dimension.
+- Both sides of the activator rail have the same mirror texture. This enables following:
+- You can build a working periscope. Rail slope is 45 degrees.
+- To place rails in the air, _-you obviously need to build a 2x2 stair-_, use barrier blocks. Using glass blocks:
+[light source] -> [glass] -> [rail] -> [glass] -> [rail] -> [camera]
+As you can see, light will have to pass through two separate glass blocks in order to reach to the bottom.
+For some reason IDK, this removes the color information of entities. This includes everything handled by Entity Model Renderer like chests, beds etc.
+- Light bounce limit is 8, for mirrors rest will appear white.
 
 **How to Create Your Own:**
-If you are not happy with my choices, you can use the template to create one yourself.
+If you are not happy with my choices, you can use the template to create a new one yourself.
 - Download the repository: Code -> Download ZIP
 - Go to **Template/Textures/Blocks**
 - Duplicate the **block_texture.texture_set.json** file if you need to retexture multiple blocks in a single package
@@ -32,4 +34,4 @@ If you are not happy with my choices, you can use the template to create one you
 - Add everything to a **zip** file **NOT RAR OR 7Z**
 - Change the file extension to **mcpack**
 
-**Congratulations!** You have just created your very own mirror resource pack.
+**Congratulations!** You have just created your very own resource pack.
