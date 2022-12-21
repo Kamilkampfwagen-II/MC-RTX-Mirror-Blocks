@@ -9,11 +9,11 @@ I've chosen those because they are not really common in builds.
 **Some Tips:**
 - Both sides of the activator rail have the same mirror texture. This enables following:
 - You can build a working periscope. Rail slope is 45 degrees.
-- To place rails in the air, _-you obviously need to build a 2x2 stair-_, use barrier blocks. Using glass blocks:
+- To place rails in the air _-you obviously need to build a 2x2 stair-_, use barrier blocks. In case of glass blocks:
 [light source] -> [glass] -> [rail] -> [glass] -> [rail] -> [camera]
 As you can see, light will have to pass through two separate glass blocks in order to reach to the bottom.
-For some reason IDK, this removes the color information of entities. This includes everything handled by Entity Model Renderer like chests, beds etc.
-- Light bounce limit is 8, for mirrors rest will appear white.
+For some reason, this removes the color information of entities. This includes everything handled by Entity Model Renderer like chests, beds etc.
+- Light bounce limit is 8.
 
 **How to Create Your Own:**
 If you are not happy with my choices, you can use the template to create a new one yourself.
@@ -31,7 +31,7 @@ If you are not happy with my choices, you can use the template to create a new o
 - Change version info if you want
 - Save the file
 - Replace **pack_icon.png** if you want. It should be a square to be displayed correctly. Max resolution is **1080x1080** but lower is recommended. Otherwise, it will waste disk space
-- Add everything to a **zip** file **NOT RAR OR 7Z**
+- Add everything to a **zip** file
 - Change the file extension to **mcpack**
 
 **Congratulations!** You have just created your very own resource pack.
